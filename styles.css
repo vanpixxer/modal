@@ -1,0 +1,7 @@
+/* Modal Styling */
+
+body {
+    background: url(img/wires.jpg)no-repeat center center/ cover;
+    height: 100vh;
+    position: relative;
+}
