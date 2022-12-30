@@ -74,4 +74,18 @@ body {
     width: 100%;
     height: 100%;
     z-index: 10;
+    /* make background darker when modal appears */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Styles for animating in the modal container */
+@keyframes animatemodal {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 50%;
+        opacity: 1;
+    }
 }
